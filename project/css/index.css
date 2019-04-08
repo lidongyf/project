@@ -1,0 +1,39 @@
+.margin{margin:0 auto;width:1200px;}
+header{height:44px;background: #0092d8;}
+header .logo{float:left;display:block;width:120px;height:44px;background:url(../img/logo.png);}
+header ul{width:552px;float:left;}
+header ul li{float:left;}
+header ul li a{color:#a3c3e6;display:block;padding:0 30px;line-height:44px;}
+header ul li a:hover{color:#fff;point:cursor;}
+header .hr{float:right;}
+header .hr i{display:block;float:left;text-align: center;line-height: 44px;}
+header .hr i.search{width:75px;height:44px;}
+header .hr i.mobile{width:65px;height:44px;}
+header .hr i.car{width:65px;height:44px;}
+header .hr i.login{width:86px;height:44px;}
+header .hr i.login span{color:#fff;}
+
+#notice{height:24px;background: #003b66;text-align: center;}
+#notice p{font:12px/2 "";color:#fff;}
+
+#authen{height:40px;border-bottom: 1px solid #e6e6e6;}
+#authen ul{display: flex;justify-content: space-around;margin-left:52px;}
+#authen ul li{line-height: 40px;}
+#authen ul li i{display:block;float:left;width:20px;height:15px;background:url(../img/t1.png);margin-top: 12px;}
+#authen ul li .i2{background-position:0 -15px;}
+#authen ul li .i3{background-position:0 -30px;}
+#authen ul li .i4{background-position:0 -45px;}
+#authen ul li .i5{background-position:0 -60px;}
+#authen ul li span{margin-left:13px;display: block;float:left;font:12px/40px "";color:#666;}
+
+#banner{height: 480px;position: relative;}
+#banner a{display:block;}
+#banner img{display: block;width:1200px;height:480px;position: absolute;}
+#banner .menu{background:#666;width:220px;height:480px;position: absolute;opacity: .7;z-index: 2;}
+
+
+
+
+
+
+
