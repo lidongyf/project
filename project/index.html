@@ -5,23 +5,34 @@
 		<title>美的</title>
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
-		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
 	</head>
 	<body>
-		<header>
+		<header class="div1 clear">
 			<a href="#" class="logo"></a>
-			<ul class="nav">
+			<ul class="nav clear">
 				<li><a href = "#">首页</a></li>
 				<li><a href = "#">商家入驻</a></li>
 				<li><a href = "#">企业采购</a></li>
 				<li><a href = "#">全屋家电套购</a></li>
 				<li><a href = "#">会员福利社</a></li>
 			</ul>
-			<div class="hr">
-					<i class="search"><img src="img/search.png"/></i>
-					<i class="mobile"><img src="img/mobile.png"/></i>
-					<i class="car"><img src="img/car.png"/></i>
-					<i class="login"><img src="img/login.png"/><span>登录</span></i>
+			<div class="h-r clear">
+				<div class="search">
+					<img src="img/search.png"/>
+					<input type="text" name="txt" id="txt" value="" placeholder="美的品类日"/>
+					<div class="search-res" id="list">
+				
+			        </div>
+				</div>
+				<i class="mobile"><img src="img/mobile.png"/></i>
+				<i class="car"><img src="img/car.png"/></i>
+				<i class="login">
+					<img src="img/login.png"/>
+					<a href="login.html"><span>登录</span></a>
+					<em>/</em>
+					<a href="register.html"><span>注册</span></a>
+				</i>
+				
 			</div>
 		</header>
 		
@@ -38,100 +49,499 @@
 				<li><i class="i5"></i><span>企业资质</span></li>
 			</ul>
 		</div>
-		<div class="margin">
-			<div id="banner">
+		<div id="banner" class="box">
+			<div class="margin imgbox">
 				<a href="#"><img src="img/banner1.webp"/></a>
 				<a href="#"><img src="img/banner2.webp"/></a>
 				<a href="#"><img src="img/banner3.webp"/></a>
 				<a href="#"><img src="img/banner4.webp"/></a>
 				<a href="#"><img src="img/banner5.webp"/></a>
 				<a href="#"><img src="img/banner6.webp"/></a>
-				<div class="menu">
-					<div class="list">
-						<dl>
-						<dt>
-							<i></i>
-							<a href=""><span>空调</span></a>
-							<a href=""><span>壁挂式</span></a>
-						</dt>
-						<dd>
-							
-						</dd>
-					</dl>
-					<dl>
-						<dt>
-							<i></i>
-							<a href=""><span>冰箱</span></a>
-							<a href=""><span>三门冰箱</span></a>
-						</dt>
-						<dd>
-							
-						</dd>
-					</dl>
-					<dl>
-						<dt>
-							<i></i>
-							<a href=""><span>洗衣机</span></a>
-							<a href=""><span>滚筒洗衣机</span></a>
-						</dt>
-						<dd>
-							
-						</dd>
-					</dl>
-					<dl>
-						<dt>
-							<i></i>
-							<a href=""><span>厨房小电</span></a>
-							<a href=""><span>电饭煲</span></a>
-						</dt>
-						<dd>
-							
-						</dd>
-					</dl>
-					<dl>
-						<dt>
-							<i></i>
-							<a href=""><span>厨房大电</span></a>
-							<a href=""><span>烟灶套装</span></a>
-						</dt>
-						<dd>
-							
-						</dd>
-					</dl>
-					<dl>
-						<dt>
-							<i></i>
-							<a href=""><span>生活家电</span></a>
-							<a href=""><span>吸尘器</span></a>
-						</dt>
-						<dd>
-							
-						</dd>
-					</dl>
-					<dl>
-						<dt>
-							<i></i>
-							<a href=""><span>热水器/净水</span></a>
-							<a href=""><span>热水器</span></a>
-						</dt>
-						<dd>
-							
-						</dd>
-					</dl>
-					<dl>
-						<dt>
-							<i></i>
-							<a href=""><span>配件及周边</span></a>
-							<a href=""><span>清洗服务</span></a>
-						</dt>
-						<dd>
-							
-						</dd>
-					</dl>
-					</div>
-					
+				<div class="btns">
+					<input type="button" name="" id="left" value="<<" />
+				    <input type="button" name="" id="right" value=">>" />
 				</div>
 			</div>
+		</div>		
+		<div class="nav2">
+			<ul class="list">
+				<li class="li1">
+					<a href="#" class="name">空调</a>
+					<a href="#" class="des">壁挂式</a>
+					<i class="hot"></i>
+					<ul class="list2">
+						<li class="li2">
+							壁挂式空调
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+						<li class="li2">
+							 立柜式空调
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+					    </li>
+					    <li class="li2">
+							中央空调
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="li1">
+					<a href="#" class="name">冰箱</a>
+					<a href="#" class="des">三门冰箱</a>
+					<i ></i>
+					<ul class="list2">
+						<li class="li2">
+							单门冰箱
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+						<li class="li2">
+							 双门冰箱
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+					    </li>
+					    <li class="li2">
+							多门冰箱
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="li1">
+					<a href="#" class="name">洗衣机</a>
+					<a href="#" class="des">滚筒洗衣机</a>
+					<i class="hot"></i>
+					<ul class="list2">
+						<li class="li2">
+							滚筒洗衣机
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+						<li class="li2">
+							 波轮洗衣机
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+					    </li>
+					    <li class="li2">
+							双缸洗衣机
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="li1">
+					<a href="#" class="name">厨房小电</a>
+					<a href="#" class="des">电饭煲</a>
+					<i ></i>
+					<ul class="list2">
+						<li class="li2">
+							电饭煲
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+						<li class="li2">
+							 电磁炉
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+					    </li>
+					    <li class="li2">
+							微波炉
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="li1">
+					<a href="#" class="name">厨房大电</a>
+					<a href="#" class="des">烟灶套装</a>
+					<i></i>
+					<ul class="list2">
+						<li class="li2">
+							吸油烟机
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+						<li class="li2">
+							 消毒柜
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+					    </li>
+					    <li class="li2">
+							燃气灶
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="li1">
+					<a href="#" class="name">生活家电</a>
+					<a href="#" class="des">吸尘器</a>
+					<i class="hot"></i>
+					<ul class="list2">
+						<li class="li2">
+							除湿机
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+						<li class="li2">
+							 电热水壶
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+					    </li>
+					    <li class="li2">
+							空气净化器
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="li1">
+					<a href="#" class="name">热水器/净水</a>
+					<a href="#" class="des">热水器</a>
+					<i class="hot"></i>
+					<ul class="list2">
+						<li class="li2">
+							燃气热水器
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+						<li class="li2">
+							 电热水器
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+					    </li>
+					    <li class="li2">
+							净水机
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="li1">
+					<a href="#" class="name">配件及周边</a>
+					<a href="#" class="des">清洗服务</a>
+					<i ></i>
+					<ul class="list2">
+						<li class="li2">
+							生活周边
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+						<li class="li2">
+							 清洗服务
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+					    </li>
+					    <li class="li2">
+							路由器
+							<ul class="list3">
+							    <li>耗电量</li>
+							    <li>品牌质量</li>
+							    <li>服务质量</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+					
+	    </div>	
+			
+			
+		
+		<div id="show">
+			<div class="margin">
+				<ul>
+					<li>
+						<a href="#">
+							<h3>酷晨&卡非塔力</h3>
+							<span>为您创造生活仪式感</span>
+							<img src="img/b1.png"/>
+						</a>
+						
+					</li>
+					<li>
+						<a href="#">
+							<h3>美的洗悦家</h3>
+							<span>专业家电清洗服务</span>
+							<img src="img/b2.png"/>
+						</a>
+						
+					</li>
+					<li>
+						<a href="#">
+							<h3>智能家电</h3>
+							<span>未来生活&nbsp;由你做主</span>
+							<img src="img/b3.png"/>
+						</a>
+						
+					</li>
+					<li>
+						<a href="#">
+							<h3>比佛利品牌专区</h3>
+							<span>精雕细琢&nbsp;匠心造物</span>
+							<img src="img/b4.png"/>
+						</a>
+					</li>
+				</ul>
+			</div>
 		</div>
+		
+		<div id="title" class="margin div2">
+			<h1>明星单品</h1>
+			<span>
+				S&nbsp;&nbsp;&nbsp;&nbsp;T&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;R
+			</span>
+		</div>
+		
+		<div id="floor" class="margin">
+			<!--<div class="floor-l">
+				<a href="#">
+					<img src="img/star1.webp"/>
+					<span class="title">变频空调</span>
+					<span class="price">¥2999</span>
+				</a> 
+			</div>
+				<div class="floor-r">
+					<div class="floor-r-t">
+						<div class="product2">
+						    <a href="#">
+						     	<img src="img/star2.webp"/>
+						     	<span class="title">除湿机&nbsp;回南天必备&nbsp;家用除湿</span>
+						     	<span class="price">¥999</span>
+						    </a> 
+					    </div>
+					    <div class="product3">
+						    <a href="#">
+						     	<img src="img/star3.webp"/>
+						     	<span class="title">电压力锅&nbsp;双圆灶府内胆&nbsp;简约大屏</span>
+						     	<span class="price">¥309</span>
+						    </a> 
+					    </div>
+					</div>
+					<div class="floor-r-b">
+						<div class="product4">
+						    <a href="#">
+						     	<img src="img/star4.webp"/>
+						     	<span class="title">除螨仪&nbsp;滚刷怕打&nbsp;四重过滤</span>
+						     	<span class="price">¥599</span>
+						    </a> 
+					    </div>
+					    <div class="product5">
+					    	<a href="#">
+						     	<img src="img/star5.webp"/>
+						     	<span class="title">花生净水机&nbsp;无罐400大通量&nbsp;专利双芯</span>
+						     	<span class="price">¥1899</span>
+						    </a> 
+				        </div>	
+					</div>
+					
+			    </div>-->
+		</div>
+		
+		<div id="floor2" class="margin">
+			<div class="floor-l">
+				<div class="floor-l-t">
+						<div class="product6">
+						    <a href="#">
+						     	<img src="img/star6.webp"/>
+						     	<span class="price">¥2499</span>
+						    </a> 
+					    </div>
+					    
+					</div>
+					<div class="floor-l-b">
+						<div class="product7">
+						    <a href="#">
+						     	<img src="img/star7.webp"/>
+						     	<span class="title">除螨仪&nbsp;滚刷怕打&nbsp;四重过滤</span>
+						     	<span class="price">¥599</span>
+						    </a> 
+					    </div>
+					    <div class="product8">
+					    	<a href="#">
+						     	<img src="img/star8.webp"/>
+						     	<span class="title">花生净水机&nbsp;无罐400大通量&nbsp;专利双芯</span>
+						     	<span class="price">¥1899</span>
+						    </a> 
+				        </div>	
+					</div>
+			</div>
+				<div class="floor-r">
+					<a href="#">
+						<img src="img/star9.webp"/>
+						<span class="price">¥2999</span>
+				   </a> 
+			    </div>
+		</div>
+		
+		<div id="title" class="margin div3" >
+			<h1>会员专区</h1>
+			<a href="">
+				<span>更多会员福利>>></span>
+			</a>			
+		</div>
+		
+		<div id="vip" class="margin">
+            <ul>
+            	<li>
+            		<a href="#"><img src="img/v1.webp"/></a>
+            		<a href="#" class="btn"><span>立即查看</span></a>	
+            	</li>
+            	<li>
+            		<a href="#"><img src="img/v2.webp"/></a>
+            		<a href="#" class="btn"><span>立即抽奖</span></a>	
+            	</li>
+            	<li>
+            		<a href="#"><img src="img/v3.webp"/></a>
+            		<a href="#" class="btn"><span>立即兑换</span></a>	
+            	</li>
+            	<li class="last">
+            		<a href="#"><img src="img/v4.webp"/></a>
+            		<a href="#" class="btn"><span>立即查看</span></a>	
+            	</li>
+            </ul>			
+		</div>
+		
+		<div id="footer" class="margin div4">
+			<ul>
+				<li><a href="#">商城入驻</a></li>
+				<li><a href="#">服务条款</a></li>
+				<li><a href="#">隐私政策</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">帮助中心</a></li>
+				<li><a href="#">技术支持</a></li>
+			</ul>
+			<p> 
+				Copyright © 1968-2019 广东美的网络科技有限公司
+				<a href="#">
+					粤ICP备17058257号
+				</a>
+				<a href="#">
+					<img src="img/c1.jpg"/>
+					 粤公网安备 44060602000546号
+				</a>
+				<a href="#">
+					<img src="img/c2.jpg"/>
+					 粤工商备P06811806002512
+				</a>
+			</p>
+		</div>
+		
+		<ul class="select">
+			<li>页面顶部</li>
+			<li>明星单品</li>
+			<li>会员专区</li>
+			<li>页面底部</li>
+		</ul>
 	</body>
+    <script src="js/ajax.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/search.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.2.2.4.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/banner.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    	//楼层效果
+    	$(".select").children("li").click(function(){
+			var index = $(this).index()+1;
+			var t = $(".div"+index).offset().top;
+			$("html").animate({
+				scrollTop:t
+			})
+		})
+    	//三级导航效果
+        $(".nav2").find(".li1").mousemove(function(){
+        	$(this).find(".list2").css("display","block")
+        })
+        $(".nav2").find(".li1").mouseout(function(){
+        	$(this).find(".list2").css("display","none")
+        })
+        $(".list2").find(".li2").mousemove(function(){
+        	$(this).find(".list3").css("display","block")
+        })
+         $(".list2").find(".li2").mouseout(function(){
+        	$(this).find(".list3").css("display","none")
+        })
+         
+        //轮播图效果
+        $("#banner").banner({
+			items:$("#banner a"),            //必传项，表示要移动的图片
+			left:$("#banner .btns #left"),            //可选，左按钮
+			right:$("#banner .btns #right"),          //可选，右按钮
+			isList:false,                             //可选，是否需要自动生成List
+			autoPlay:true,                          //可选，是否需要自动轮播  
+			delayTime:2000,                          //可选，自动轮播时，没两张图片的时间间隔 
+			moveTime:200                             //可选，每张图片运动的时间
+		})
+    </script>
 </html>
