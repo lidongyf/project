@@ -1,0 +1,42 @@
+.margin{margin:0 auto;width:1200px;}
+header{height:44px;background: #0092d8;}
+header .logo{float:left;display:block;width:120px;height:44px;background:url(../img/logo.png);}
+header ul{width:552px;float:left;}
+header ul li{float:left;}
+header ul li a{color:#a3c3e6;display:block;padding:0 30px;line-height:44px;}
+header ul li a:hover{color:#fff;point:cursor;}
+header .h-r{float: left;text-align: center;line-height: 43px;}
+header .h-r .search{float:left;width:250px;height:44px;position: relative;margin-left: 180px;}
+header .h-r .search img{position:absolute;right:1px;top:16px;}
+header .h-r .search input{width:250px;height:44px;border:none;background:#fff;}
+header .h-r .search .search-res{text-align: left;}
+header .h-r .search .search-res li{position:relative;z-index: 9;line-height: 20px;background: #fff;}
+header .h-r .mobile{float:left;display: block;width:65px;height:44px;}
+header .h-r .mobile:hover{background:#006fa3}
+header .h-r .car{float:left;width:65px;height:44px;}
+header .h-r .car:hover{background:#006fa3}
+header .h-r .login{float:left;width:100px;height:44px;}
+header .h-r .login span{font:12px/44px "";color:#fff;}
+
+#notice{height:24px;background: #003b66;text-align: center;}
+#notice p{font:12px/2 "";color:#fff;}
+
+#authen{height:40px;border-bottom: 1px solid #e6e6e6;}
+#authen ul{display: flex;justify-content: space-around;margin-left:52px;}
+#authen ul li{line-height: 40px;}
+#authen ul li i{display:block;float:left;width:20px;height:15px;background:url(../img/t1.png);margin-top: 12px;}
+#authen ul li .i2{background-position:0 -15px;}
+#authen ul li .i3{background-position:0 -30px;}
+#authen ul li .i4{background-position:0 -45px;}
+#authen ul li .i5{background-position:0 -60px;}
+#authen ul li span{margin-left:13px;display: block;float:left;font:12px/40px "";color:#666;}
+
+
+#footer{overflow: hidden;}
+#footer ul{border-top: 1px solid #e0e0e0;height:42px;border-bottom: 1px solid #e0e0e0;}
+#footer ul li{width:150px;float:left;height:42px;font:12px/42px "";}
+#footer ul li a{display: block;}
+#footer ul li:hover a{color:#f00;}
+#footer p{height:12px;margin:15px 0;}
+#footer p img{width:20px;height:20px;}
+#footer p a:hover{color:#f00;}

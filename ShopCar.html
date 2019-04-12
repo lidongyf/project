@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/default.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ShopCar.css"/>
+	</head>
+	<body>
+		<header class="div1 clear">
+			<a href="#" class="logo"></a>
+			<ul class="nav clear">
+				<li><a href = "index.html">首页</a></li>
+				<li><a href = "list.html">我的商品</a></li>
+				<!--<li><a>企业采购</a></li>
+				<li><a>全屋家电套购</a></li>
+				<li><a>会员福利社</a></li>-->
+			</ul>
+			<div class="h-r clear">
+				<!--<div class="search">
+					<img src="img/search.png"/>
+					<input type="text" name="txt" id="txt" value="" placeholder="美的品类日"/>
+					<div class="search-res" id="list">
+				
+			        </div>
+				</div>
+				<i class="mobile"><img src="img/mobile.png"/></i>
+				<i class="car"><img src="img/car.png"/></i>-->
+				<i class="login">
+					<img src="img/login.png"/>
+					<a href="login.html"><span>登录</span></a>
+					<em>/</em>
+					<a href="register.html"><span>注册</span></a>
+				</i>
+				
+			</div>
+		</header>
+		
+		<div id="notice">
+			<p>【通知】1.2019年4月1日起发货的订单，发票税率由16%变更为13%;2.新疆区域由于交通管制无法正常发货，恢复时间待定</p>
+		</div>
+		
+		<div id="authen">
+			<ul class="margin">
+				<li><i class="i1"></i><span>美的集团唯一官方商城</span></li>
+				<li><i class="i2"></i><span>微信/支付宝快捷支付</span></li>
+				<li><i class="i3"></i><span>全场包邮/全国联保</span></li>
+				<li><i class="i4"></i><span>7天无理由退换货</span></li>
+				<li><i class="i5"></i><span>企业资质</span></li>
+			</ul>
+		</div>
+		
+		<h2>购物车<small>&nbsp;&nbsp;<a href="index.html" target="_blank">继续购物</a></small></h2>
+		<table border=1 cellspacing="0">
+			<thead>
+				<tr>
+					<th></th>
+					<th>商品图片</th>
+					<th>名字</th>
+					<th>价格</th>
+					<th>数量</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!--<tr>
+					<td><input type="checkbox"></td>
+					<td><img class="img1" src="img/b1.png"></td>
+					<td>hahahahah</td>
+					<td>价格</td>
+					<td><em>¥<em>数量</td>
+					<td><span>删除</span></td>
+				</tr>-->
+			</tbody>
+			<tfoot>
+				<tr>
+					<td><input type="checkbox" id="selectAll"></td>
+					<td>全部选中</td>
+					<td>总价</td>
+					<td id="totalPrice">0</td>
+					<td id="totalNum">总数量：0</td>
+					<td><span>去结算</span></td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+	<script src="js/ajax.3.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/ShopCar.js" type="text/javascript" charset="utf-8"></script>
+</html>

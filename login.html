@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/default.css"/>
+        <link rel="stylesheet" type="text/css" href="css/login.css"/>
+	</head>
+	<body>
+		<header>
+			<a href="#" class="logo"></a>
+		</header>	
+		<div id="box">
+			<div class="box-l">
+				<img src="img/login.webp"/>
+			</div>
+			<form class="box-r">
+				<h3>账号密码登录</h3>
+				<input type="text" name="user" id="user" value="" placeholder="用户名"/>
+				<input type="password" name="pass" id="pass" value="" placeholder="密码"/>
+				<span class="tips"></span>
+				<a href="index.html" class="login" id="btn">登录</a>
+				
+				<span class="line">
+					<a href="register.html" class="register">注册</a>
+					<a href="#" class="forget">忘记密码？</a>
+			    </span>
+			</form>
+			
+		</div>	
+		<div id="footer" class="margin">
+			<p> 
+				Copyright © 1968-2019 广东美的网络科技有限公司 粤ICP备17058257号
+			</p>
+		</div>
+	</body>
+	<script src="js/jquery.2.2.4.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		class Login{
+			constructor(){
+				this.url = "http://www.icodeilife.cn/ctrl/login.php",
+				this.init();
+			}
+			init(){
+				var that = this;
+				$("#btn").click(function(){
+					that.load();
+//                  console.log(1)
+				})
+			}
+			load(){
+				$.ajax({
+
+					url:this.url,
+					data:{
+						user:$("#user").val(),
+						pass:$("#pass").val()
+					},
+					success:function(res){
+						var that = this;
+						switch(res){
+							case "0":
+							     $(".tips").html("用户名密码不符");break;
+							case "1":
+							     $(".tips").html("重新登录");break;
+							default:  
+							     $(".tips").html("登录成功,得到自己的用户数据了"); 
+							     that.res = JSON.parse(res);
+							     console.log(that.res);
+						}
+				    }
+				    
+				    
+				})
+			}
+		}
+		new Login();
+	</script>
+</html>

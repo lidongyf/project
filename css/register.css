@@ -1,0 +1,16 @@
+#box{height:600px;width:1190px;margin: 0 auto;}
+#box .box-l{float:left;}
+#box .box-l img{width:485px;height:485px;margin-left: 150px;;}
+#box .box-r{float: right;border: 2px solid #eee;width:378px;height:481px;margin-right: 100px;margin-top: 50px;}
+#box .box-r h3{font-size:20px;margin-top: 20px;}
+#box .box-r input{display: block;width:298px;height:38px;border: 1px solid #eee;margin: 10px auto;}
+#box .box-r p{margin-left: 40px;width:300px;color:#ccc}
+#box .box-r span{color:red;}
+#box .box-r .tips{margin-left: 40px;}
+#box .box-r #btn{background: #0092D8;color: #fff;}
+#box .box-r a.login{margin-left: 220px;color:#0092D8;}
+#box .box-r a.login:hover{color:#f00;}
+
+
+
+#footer{text-align: center;border-top: 1px solid #E0E0E0;}
